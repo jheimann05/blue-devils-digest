@@ -1,0 +1,24 @@
+{
+  "name": "bluedevil-digest-stub",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.11",
+    "@types/node": "24.2.1",
+    "@types/react": "19.1.9",
+    "autoprefixer": "^10.4.21",
+    "postcss": "latest",
+    "tailwindcss": "^4.1.11",
+    "typescript": "latest"
+  }
+}
