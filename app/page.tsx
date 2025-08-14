@@ -1,5 +1,9 @@
-export default function Home(){return(<>
-  <h1 className="text-2xl font-bold text-blue-600">BlueDevil Digest</h1>
-  <p className="text-sm text-gray-600">Starter project. Follow the milestones to connect Google Sheets & OpenAI.</p>
-  <p>First task: get this running locally (Milestone 1).</p>
-</>);}
+export default function Home() {
+  return (
+    <div className="flex items-center justify-center h-screen bg-gray-50">
+      <h1 className="text-4xl font-extrabold text-blue-700">
+        BlueDevil Digest
+      </h1>
+    </div>
+  );
+}
