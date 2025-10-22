@@ -5,10 +5,10 @@ export const revalidate = 30; // refresh ISR cache every 30s
 
 export default async function Dashboard() {
   const rows = await readSheetRows(200); // adjust if your sheet is longer
-
+  
   return (
     <section className="p-6 space-y-5">
-      <h1 className="text-2xl font-semibold">BlueDevil Digest — Dashboard</h1>
+      <h1 className="text-2xl text-blue-800 font-semibold">BlueDevil Digest — Dashboard</h1>
 
       <ul className="space-y-4">
         {rows.map((r, i) => {

@@ -76,4 +76,4 @@ Return ONLY valid JSON with keys: recap (string), tweet (string), tags (string[]
 
   return { json: parsed, raw };
 }
-
+export const mockGenerate = generateCopy; 
