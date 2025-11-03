@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-gray-50 gap-6">
       <h1 className="text-4xl font-extrabold text-blue-700">
-        BlueDevil Digest
+        Duke Blue Devils Digest
       </h1>
       <Link 
         href="/dashboard"

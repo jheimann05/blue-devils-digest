@@ -8,7 +8,7 @@ export default async function Dashboard() {
   
   return (
     <section className="p-6 space-y-5">
-      <h1 className="text-2xl text-blue-800 font-semibold">BlueDevil Digest — Dashboard</h1>
+      <h1 className="text-2xl text-blue-800 font-semibold">Duke Blue Devils Digest — Dashboard</h1>
 
       <ul className="space-y-4">
         {rows.map((r, i) => {
